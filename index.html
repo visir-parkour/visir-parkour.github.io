@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="ViSiR-Parkour: Visual Sim-to-Real Locomotion for Scalable and Generalizable Legged Robot In-the-Wild Parkour">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ViSiR-Parkour</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/index.css?v=20261124">
+</head>
+
+<body>
+
+<section class="hero is-link is-fullheight video" style="overflow: hidden; position: relative;">
+  <div class="hero-video" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 101%; height: 101%;">
+    <video playsinline autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
+      <source src="./static/videos/teaser.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="overlay"></div>
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title is-1 publication-title is-size-1-mobile" style="font-size: 8rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);">
+        ViSiR-Parkour
+      </h1>
+      <h1 class="subtitle is-1 publication-title is-size-4-mobile" style="font-size: 3rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);">
+        Visual Sim-to-Real Locomotion for Scalable and Generalizable Legged Robot In-the-Wild Parkour
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="section paper-header">
+  <div class="container has-text-centered">
+    <h1 class="title is-2 publication-title paper-title">
+      ViSiR-Parkour: Visual Sim-to-Real Locomotion for Scalable and Generalizable Legged Robot In-the-Wild Parkour
+    </h1>
+    <p class="paper-authors">
+      <span>Haitong Wang,</span>
+      <span>Souren Pashangpour<sup>*</sup>,</span>
+      <span>Matthew Lisondra<sup>*</sup>,</span>
+      <span>Yaseen Rehman,</span>
+      <span>Goldie Nejat</span>
+    </p>
+    <p class="paper-affiliation">
+      <a href="https://asblab.mie.utoronto.ca/" target="_blank" rel="noopener">Autonomous Systems and Biomechatronics Laboratory (ASBLab)</a><br>
+      <a href="https://www.utoronto.ca/" target="_blank" rel="noopener">University of Toronto</a>
+    </p>
+    <p class="paper-note"><sup>*</sup>Equal contribution</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-2 has-text-centered">Video</h2>
+        <div class="main-video" style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden;">
+          <iframe src="https://www.youtube.com/embed/JxVOMCtr80c?rel=0"
+                  title="ViSiR-Parkour video"
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-2 has-text-centered">Abstract</h2>
+        <div class="content has-text-justified">
+          <p class="abstract-text">
+            Visual locomotion methods for legged robot parkour face challenges in transferring policies from simulations to real-world environments as well as generalizing to unseen terrain geometries and layouts. In this paper, we introduce Visual Sim-to-Real Parkour (ViSiR-Parkour), a novel architecture for generalizable legged robot parkour in the wild. ViSiR-Parkour trains a single teacher policy with privileged observations on a scaled-up distribution of diverse primitive and combination terrains. A unique progress-aware terrain reallocation (PATR) curriculum learning approach uses traversal success rates to reallocate training robots to terrain types requiring further learning. A visual student policy is then trained using hybrid policy learning with teacher supervision to acquire locomotion skills and task reward optimization to improve terrain traversal beyond imitating teacher actions. Our visual sim-to-real method is the first to apply learning-based stereo matching to legged robot parkour, transforming onboard stereo observations into clean metric depth images consistent with the simulated visual inputs obtained during training. ViSiR-Parkour enables direct policy transfer without depth-noise augmentation or real-world policy fine-tuning. Simulated and real-world experiments demonstrate the performance and generalizability of ViSiR-Parkour across diverse challenging indoor and outdoor terrains. A scalability study shows generalizability to unseen out-of-distribution terrains improves as the number of training terrain types increases. An ablation study validates the main design choices of the architecture.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-2 has-text-centered">Architecture</h2>
+        <img class="figure" src="./static/images/architecture.png" alt="ViSiR-Parkour architecture">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>Page template borrowed from <a href="https://nerfies.github.io/"><span class="dnerf">Nerfies</span></a>, <a href="https://umi-on-legs.github.io/">UMI on Legs</a>, and <a href="https://beyondmimic.github.io/">BeyondMimic</a>.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
