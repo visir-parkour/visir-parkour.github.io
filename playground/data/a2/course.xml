@@ -76,33 +76,33 @@
     <geom name="desk_leg_2" type="box" pos="25.6812 1.4250 0.2000" size="0.0250 0.0250 0.2000" rgba="0.55 0.40 0.30 1"/>
     <geom name="desk_leg_3" type="box" pos="25.6812 -1.4250 0.2000" size="0.0250 0.0250 0.2000" rgba="0.55 0.40 0.30 1"/>
     <geom name="floor_48" type="box" pos="26.4562 0.0000 -0.5000" size="0.7500 1.5000 0.5000" rgba="0.72 0.74 0.78 1"/>
-    <geom name="floor_49" type="box" pos="27.5137 0.0000 -0.5000" size="0.3075 1.5000 0.5000" rgba="0.72 0.74 0.78 1"/>
+    <geom name="floor_49" type="box" pos="27.4897 0.0000 -0.5000" size="0.2835 1.5000 0.5000" rgba="0.72 0.74 0.78 1"/>
     <geom name="ladder_tread_0" type="box" pos="27.4187 0.0000 0.1950" size="0.0708 0.2250 0.0150" rgba="0.70 0.72 0.76 1"/>
     <geom name="ladder_tread_1" type="box" pos="27.5603 0.0000 0.4050" size="0.0708 0.2250 0.0150" rgba="0.70 0.72 0.76 1"/>
-    <geom name="ladder_tread_2" type="box" pos="27.7262 0.0000 0.6150" size="0.0950 0.2250 0.0150" rgba="0.70 0.72 0.76 1"/>
-    <geom name="ladder_landing" type="box" pos="28.4212 0.0000 -0.1850" size="0.6000 1.5000 0.8150" rgba="0.60 0.66 0.74 1"/>
+    <geom name="ladder_tread_2" type="box" pos="27.7022 0.0000 0.6150" size="0.0710 0.2250 0.0150" rgba="0.70 0.72 0.76 1"/>
+    <geom name="ladder_landing" type="box" pos="28.3732 0.0000 -0.1850" size="0.6000 1.5000 0.8150" rgba="0.60 0.66 0.74 1"/>
     <geom name="ladder_rail_l" type="box" pos="27.4187 0.2540 0.3150" size="0.3800 0.0290 0.0150" quat="0.882948 0 -0.469472 0" rgba="0.40 0.42 0.48 1"/>
     <geom name="ladder_rail_r" type="box" pos="27.4187 -0.2540 0.3150" size="0.3800 0.0290 0.0150" quat="0.882948 0 -0.469472 0" rgba="0.40 0.42 0.48 1"/>
-    <geom name="floor_56" type="box" pos="29.5212 0.0000 -0.5000" size="0.5000 1.5000 0.5000" rgba="0.72 0.74 0.78 1"/>
-    <geom name="rock_0_0" type="mesh" mesh="rock_0_0" pos="30.2422 -0.4301 0" rgba="0.515 0.485 0.445 1"/>
-    <geom name="rock_0_1" type="mesh" mesh="rock_0_1" pos="30.2335 0.0182 0" rgba="0.563 0.533 0.493 1"/>
-    <geom name="rock_0_2" type="mesh" mesh="rock_0_2" pos="30.2064 0.5141 0" rgba="0.467 0.437 0.397 1"/>
-    <geom name="rock_1_0" type="mesh" mesh="rock_1_0" pos="30.6845 -0.4716 0" rgba="0.531 0.501 0.461 1"/>
-    <geom name="rock_1_1" type="mesh" mesh="rock_1_1" pos="30.6692 0.0315 0" rgba="0.577 0.547 0.507 1"/>
-    <geom name="rock_1_2" type="mesh" mesh="rock_1_2" pos="30.6356 0.4357 0" rgba="0.564 0.534 0.494 1"/>
-    <geom name="rock_2_0" type="mesh" mesh="rock_2_0" pos="31.1729 -0.5158 0" rgba="0.479 0.449 0.409 1"/>
-    <geom name="rock_2_1" type="mesh" mesh="rock_2_1" pos="31.0733 -0.0337 0" rgba="0.598 0.568 0.528 1"/>
-    <geom name="rock_2_2" type="mesh" mesh="rock_2_2" pos="31.0977 0.4735 0" rgba="0.576 0.546 0.506 1"/>
-    <geom name="rock_3_0" type="mesh" mesh="rock_3_0" pos="31.5307 -0.4858 0" rgba="0.504 0.474 0.434 1"/>
-    <geom name="rock_3_1" type="mesh" mesh="rock_3_1" pos="31.5491 0.0005 0" rgba="0.495 0.465 0.425 1"/>
-    <geom name="rock_3_2" type="mesh" mesh="rock_3_2" pos="31.5008 0.4660 0" rgba="0.530 0.500 0.460 1"/>
-    <geom name="rock_4_0" type="mesh" mesh="rock_4_0" pos="31.9943 -0.4603 0" rgba="0.541 0.511 0.471 1"/>
-    <geom name="rock_4_1" type="mesh" mesh="rock_4_1" pos="31.8051 0.0179 0" rgba="0.588 0.558 0.518 1"/>
-    <geom name="rock_4_2" type="mesh" mesh="rock_4_2" pos="31.9981 0.5194 0" rgba="0.561 0.531 0.491 1"/>
-    <geom name="floor_72" type="box" pos="32.6712 0.0000 -0.5000" size="0.5000 1.5000 0.5000" rgba="0.72 0.74 0.78 1"/>
-    <geom name="floor_73" type="box" pos="35.4212 0.0000 -0.5000" size="2.2500 1.5000 0.5000" rgba="0.72 0.74 0.78 1"/>
-    <geom name="finish_l" type="box" pos="34.67116924982361 1.45 0.6" size="0.04 0.04 0.6" group="5" contype="0" conaffinity="0" rgba="0.2 0.7 0.3 1"/>
-    <geom name="finish_r" type="box" pos="34.67116924982361 -1.45 0.6" size="0.04 0.04 0.6" group="5" contype="0" conaffinity="0" rgba="0.2 0.7 0.3 1"/>
-    <geom name="finish_bar" type="box" pos="34.67116924982361 0 1.22" size="0.04 1.49 0.04" group="5" contype="0" conaffinity="0" rgba="0.2 0.7 0.3 1"/>
+    <geom name="floor_56" type="box" pos="29.4732 0.0000 -0.5000" size="0.5000 1.5000 0.5000" rgba="0.72 0.74 0.78 1"/>
+    <geom name="rock_0_0" type="mesh" mesh="rock_0_0" pos="30.1942 -0.4301 0" rgba="0.515 0.485 0.445 1"/>
+    <geom name="rock_0_1" type="mesh" mesh="rock_0_1" pos="30.1855 0.0182 0" rgba="0.563 0.533 0.493 1"/>
+    <geom name="rock_0_2" type="mesh" mesh="rock_0_2" pos="30.1584 0.5141 0" rgba="0.467 0.437 0.397 1"/>
+    <geom name="rock_1_0" type="mesh" mesh="rock_1_0" pos="30.6365 -0.4716 0" rgba="0.531 0.501 0.461 1"/>
+    <geom name="rock_1_1" type="mesh" mesh="rock_1_1" pos="30.6212 0.0315 0" rgba="0.577 0.547 0.507 1"/>
+    <geom name="rock_1_2" type="mesh" mesh="rock_1_2" pos="30.5876 0.4357 0" rgba="0.564 0.534 0.494 1"/>
+    <geom name="rock_2_0" type="mesh" mesh="rock_2_0" pos="31.1249 -0.5158 0" rgba="0.479 0.449 0.409 1"/>
+    <geom name="rock_2_1" type="mesh" mesh="rock_2_1" pos="31.0253 -0.0337 0" rgba="0.598 0.568 0.528 1"/>
+    <geom name="rock_2_2" type="mesh" mesh="rock_2_2" pos="31.0497 0.4735 0" rgba="0.576 0.546 0.506 1"/>
+    <geom name="rock_3_0" type="mesh" mesh="rock_3_0" pos="31.4827 -0.4858 0" rgba="0.504 0.474 0.434 1"/>
+    <geom name="rock_3_1" type="mesh" mesh="rock_3_1" pos="31.5011 0.0005 0" rgba="0.495 0.465 0.425 1"/>
+    <geom name="rock_3_2" type="mesh" mesh="rock_3_2" pos="31.4528 0.4660 0" rgba="0.530 0.500 0.460 1"/>
+    <geom name="rock_4_0" type="mesh" mesh="rock_4_0" pos="31.9463 -0.4603 0" rgba="0.541 0.511 0.471 1"/>
+    <geom name="rock_4_1" type="mesh" mesh="rock_4_1" pos="31.7571 0.0179 0" rgba="0.588 0.558 0.518 1"/>
+    <geom name="rock_4_2" type="mesh" mesh="rock_4_2" pos="31.9501 0.5194 0" rgba="0.561 0.531 0.491 1"/>
+    <geom name="floor_72" type="box" pos="32.6232 0.0000 -0.5000" size="0.5000 1.5000 0.5000" rgba="0.72 0.74 0.78 1"/>
+    <geom name="floor_73" type="box" pos="35.3732 0.0000 -0.5000" size="2.2500 1.5000 0.5000" rgba="0.72 0.74 0.78 1"/>
+    <geom name="finish_l" type="box" pos="34.62316924982362 1.45 0.6" size="0.04 0.04 0.6" group="5" contype="0" conaffinity="0" rgba="0.2 0.7 0.3 1"/>
+    <geom name="finish_r" type="box" pos="34.62316924982362 -1.45 0.6" size="0.04 0.04 0.6" group="5" contype="0" conaffinity="0" rgba="0.2 0.7 0.3 1"/>
+    <geom name="finish_bar" type="box" pos="34.62316924982362 0 1.22" size="0.04 1.49 0.04" group="5" contype="0" conaffinity="0" rgba="0.2 0.7 0.3 1"/>
   </worldbody>
 </mujoco>
